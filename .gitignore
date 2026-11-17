@@ -1,0 +1,21 @@
+# Compilation C
+*.o
+*.out
+*.exe
+build/
+bin/
+
+# Compilation Rust
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Fuzzing & Analyses
+perf.data
+perf.data.old
+afl_out/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
